@@ -1,0 +1,33 @@
+.card {
+  width: 350px;
+  height: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.151);
+  background: var(--sec-color);
+  border-radius: 10px;
+}
+.card img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+.btn {
+  width: 150px;
+  height: 40px;
+  border-radius: 20px;
+  margin-top: 1em;
+  border: none;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.151);
+  cursor: pointer;
+  background: var(--sec-color);
+  color: var(--color);
+  transition: all 0.4s;
+}
+.btn:hover {
+  background: var(--hover-color);
+  color: var(--text-color);
+}
